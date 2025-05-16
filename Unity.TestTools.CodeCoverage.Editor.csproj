@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>UnityEditor.TestTools.CodeCoverage</RootNamespace>
-    <ProjectGuid>{7E3CAD63-B1F8-0B32-89D4-B0ECE6954A39}</ProjectGuid>
+    <ProjectGuid>{B7283291-3343-8980-EA95-DE8749D89E53}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TestTools.CodeCoverage.Editor</AssemblyName>
@@ -60,6 +60,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\Editor\CoverageStats\ICoverageStatsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\Editor\CoverageWindow\CodeCoverageWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\Editor\ICoverageReporter.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\Editor\CoverageFormats\OpenCover\OpenCoverReporterStyles.cs" />
@@ -108,7 +109,6 @@
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\Editor\CoveragePreferences.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\Editor\CoverageResultWriterBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\Editor\Filtering\PathFiltering.cs" />
-    <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\Editor\CoverageStats\ICoverageStatsProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\Editor\CodeCoverage.Editor.asmdef" />
@@ -993,23 +993,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{03A36A89-7437-D657-7609-D68DDBD30C3B}</Project>
+      <Project>{7ED11DA6-79DB-F0DA-50FF-EFA6AA3F4092}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{B8F86A22-CB7E-E74A-9F96-03DAAE6E6C4F}</Project>
+      <Project>{6BCB2300-D4AE-69AF-2BB5-E7727262060D}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Settings.Editor.csproj">
-      <Project>{8E3ED740-6B24-69DB-3836-DBB436749815}</Project>
+      <Project>{56743A2E-C2C1-0DF6-1B03-EAF8473DFBF2}</Project>
       <Name>Unity.Settings.Editor</Name>
     </ProjectReference>
   </ItemGroup>

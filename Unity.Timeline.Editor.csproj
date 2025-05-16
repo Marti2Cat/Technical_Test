@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{342B2022-E7D7-F6F4-4B49-9B7C2BA3038B}</ProjectGuid>
+    <ProjectGuid>{874FB85B-0641-60C5-F867-F50C15856798}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
@@ -153,8 +153,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Utilities\FileUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\TimelineWindow_ActiveTimeline.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Manipulators\Trim\ITrimItemMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Actions\Menus\TimelineContextMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Signals\SignalUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Actions\Menus\TimelineContextMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Manipulators\AddDelete\AddDeleteItemModeMix.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\CustomEditors\TrackEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Manipulators\EditMode.cs" />
@@ -230,8 +230,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Manipulators\Cursors\TimelineCursors.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\inspectors\BuiltInCurvePresets.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\IRowGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\inspectors\EditorClipFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Audio\AudioPlayableAssetEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\inspectors\EditorClipFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Animation\AnimationPlayableAssetEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\TrackGui\TrackResizeHandle.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Manipulators\Trim\TrimItemModeMix.cs" />
@@ -1253,15 +1253,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{BB8B8EE0-42C5-2C3B-74DF-A51B478A88FB}</Project>
+      <Project>{AC8B538B-BCFA-4B46-9E69-C2B986CB1F61}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

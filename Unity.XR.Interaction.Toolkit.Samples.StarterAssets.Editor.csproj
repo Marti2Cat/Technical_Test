@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ED8B8923-D2FB-BA5F-7D37-459A7C24A893}</ProjectGuid>
+    <ProjectGuid>{98DA25DB-BE11-47EA-0D97-79F783349422}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</AssemblyName>
@@ -977,27 +977,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{EED6CBC6-CEEF-1A07-76D0-3D26A14B528E}</Project>
+      <Project>{5B3A1F07-CF11-A5E4-3BA0-D3F6BB211818}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj">
-      <Project>{9894680E-1DD0-80FA-57E6-F8B70CF1626E}</Project>
+      <Project>{E99283EB-CA40-2133-39E6-C4FDBCCF590D}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{152F6DE2-5FD9-7C97-9C94-E72D5960919C}</Project>
+      <Project>{5F4E6DC2-A6D2-5320-AAEC-3153A0941F16}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{ABC48B30-3FDE-C8BB-3D49-5F4E4CAAB112}</Project>
+      <Project>{E5EB2374-5256-CC4E-6EC1-2F5EEE922C9B}</Project>
       <Name>Unity.XR.CoreUtils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9A58A31A-C597-83A6-62FE-AD7CBDA410C9}</ProjectGuid>
+    <ProjectGuid>{369CA455-095B-7920-177A-55A2F07962A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEditor.XR.LegacyInputHelpers</AssemblyName>
@@ -982,23 +982,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{FBD46349-FF81-0C0B-95A6-356777E8EBD0}</Project>
+      <Project>{3676B2B3-2919-F9AE-F509-E18C45A845E7}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{1D0F5ECD-4328-398B-594A-9F1407C57488}</Project>
+      <Project>{36E5FECA-2286-55E1-434A-FF3B53752AA7}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{8203310D-1422-2D76-EE6E-F27A600B4937}</Project>
+      <Project>{CA047C96-7B33-DA70-41BD-ECBF2088286B}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

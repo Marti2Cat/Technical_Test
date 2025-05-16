@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A4A25303-98C9-D677-3CBB-2B733854C268}</ProjectGuid>
+    <ProjectGuid>{56B6E9FB-D164-37DE-A463-AC34DCC3A213}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.PlasticSCM.Editor</AssemblyName>
@@ -72,9 +72,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Tool\PlasticExeLauncher.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Views\Merge\Developer\DirectoryConflicts\DrawDirectoryResolutionPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Views\Diff\GetClientDiffInfos.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Views\Diff\DiffTreeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Views\Locks\LocksViewMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\UI\UnityThreadWaiter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Views\Diff\DiffTreeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Settings\PendingChangesOptionsFoldout.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\UI\PlasticDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Views\PendingChanges\PendingChangesViewPendingChangeMenu.cs" />
@@ -218,8 +218,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\VCSPlugin.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\UI\DialogWithCheckBox.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Views\Diff\MergeCategoryTreeViewItem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\NewIncomingChanges.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\UI\HandleMenuItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\NewIncomingChanges.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Views\History\SerializableHistoryTabState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Views\PendingChanges\ChangeTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.8.2\Editor\Configuration\AutoConfig.cs" />
@@ -1315,11 +1315,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

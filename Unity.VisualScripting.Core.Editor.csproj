@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AA9A6C9A-350E-C160-B160-FD9BBE1779DD}</ProjectGuid>
+    <ProjectGuid>{2AF842D5-7B6E-3A2D-1B8E-958EBFE8CC15}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualScripting.Core.Editor</AssemblyName>
@@ -202,8 +202,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Description\IGraphElementDescription.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Variables\VariableNameInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Windows\AboutWindow\AboutablePage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\LudiqGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\FrameLimiterUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\LudiqGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_2_2.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Special\NullableInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Windows\EditorWindowWrapper.cs" />
@@ -247,7 +247,6 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Assignment\Assignment.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Description\GraphDescription.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Serialization\TypeExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Canvases\IGraphContextExtension.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\IPluginModule.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Unity\QuaternionInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Root\LudiqRootObjectEditor.cs" />
@@ -256,6 +255,7 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginModuleDependencyAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\IndividualEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Acknowledgements\Acknowledgement_SQLite.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Canvases\IGraphContextExtension.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\GraphEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Unity\Ray2DInspector.cs" />
@@ -313,9 +313,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Analysis\Analyser.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Unity\AnimationCurveInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\GraphElementEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Threading\ThreadableAssetWrapper.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Windows\Sidebars\SidebarAnchor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Meta\IndexMetadata.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Threading\ThreadableAssetWrapper.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Root\LudiqBehaviourEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Special\TypeHandleInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\NamingSchemePage.cs" />
@@ -411,9 +411,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Changelogs\Changelog_1_4_5.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Analysis\IGraphElementAnalysis.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Unity\LayerMaskInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\Licenses\License.Iconmonstr.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\Colors\SkinnedColor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Primitives\LongInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\Licenses\License.Iconmonstr.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Description\GraphItemDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\LudiqEditorUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\TextureResolution.cs" />
@@ -423,9 +423,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Unity\RayInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Meta\ProjectSettingMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Descriptors\Description.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\BoltProduct.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Primitives\DiscreteNumberInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_4.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\BoltProduct.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Other\SemanticVersionInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Context\GraphContext.cs" />
@@ -525,8 +525,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Assignment\Assigner.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_11.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Inspection\Special\ListInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\Fuzzy\FuzzyWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_3.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\Fuzzy\FuzzyWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Serialization\TypeSerializer.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Analytics\OnPreprocessBuildAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Interface\ListOption.cs" />
@@ -1453,15 +1453,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{9D86B2C5-3F6E-5075-6BFD-879B7804BA74}</Project>
+      <Project>{B12221A7-3755-518E-7CDD-38F550EB6701}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

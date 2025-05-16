@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>UnityEditor.XR.ARFoundation.VisualScripting</RootNamespace>
-    <ProjectGuid>{DBC1F3FE-CC09-3F39-2B05-85CA72F27548}</ProjectGuid>
+    <ProjectGuid>{AA2B939C-E79D-3D8A-312D-29B195AF9248}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARFoundation.VisualScripting.Editor</AssemblyName>
@@ -1001,39 +1001,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{9D86B2C5-3F6E-5075-6BFD-879B7804BA74}</Project>
+      <Project>{B12221A7-3755-518E-7CDD-38F550EB6701}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{35846C37-7292-8DE2-6017-B5B8C30FDA08}</Project>
+      <Project>{605936E7-3995-88A9-12D6-BABAAF8B99E7}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{AA9A6C9A-350E-C160-B160-FD9BBE1779DD}</Project>
+      <Project>{2AF842D5-7B6E-3A2D-1B8E-958EBFE8CC15}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{BD076612-A078-11E7-FF48-7815E4D36897}</Project>
+      <Project>{2AE7785B-1179-70E7-DE06-82E9E9963CAC}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{D83BEA33-B66D-9DD0-6ED0-C2AC456726B3}</Project>
+      <Project>{AC0D1AC5-8718-48A5-3300-4D36BAEC68A4}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{014541C3-FA4B-FD07-8C37-A5C86B3B233D}</Project>
+      <Project>{5FB09DBC-A8A0-8E77-4CD9-F8DD0EBD36AD}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.VisualScripting.csproj">
-      <Project>{16808FA7-50E9-7637-D88D-EA19FF2B4C34}</Project>
+      <Project>{3320DCB8-373D-0C0B-F3FF-EE124EEA4877}</Project>
       <Name>Unity.XR.ARFoundation.VisualScripting</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

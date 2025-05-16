@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EE563579-B64B-ED06-B2A4-C4A6234240DD}</ProjectGuid>
+    <ProjectGuid>{6166290B-53F7-5710-9EEA-C314178D7A02}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Simulation.Editor</AssemblyName>
@@ -83,8 +83,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\Simulation\SimulationEnvironmentLayerNameCheck.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\Simulation\EditorSimulationSceneManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\Simulation\SimulationPackageMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\Simulation\SimulationBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\Simulation\XREnvironmentViewUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\Simulation\SimulationBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\Simulation\XRSimulationSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\Simulation\Analytics\Hooks\EnvironmentChangeHook.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\Simulation\SampleEnvironmentsHelper.cs" />
@@ -1006,43 +1006,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{275A698C-5840-089A-808D-B51F09FE3A32}</Project>
+      <Project>{A774EF52-FEDE-4251-C242-AEBB351C5968}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{9F0EC85E-07D2-5ABF-FA47-12677B1EE59F}</Project>
+      <Project>{89EC87A6-7893-896E-EA5C-32B749CB4E73}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Simulation.csproj">
-      <Project>{D1AF1934-211A-8745-8F18-27325E28D3A9}</Project>
+      <Project>{0430018F-2CE3-8238-E153-BC2F4B98B390}</Project>
       <Name>Unity.XR.Simulation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{152F6DE2-5FD9-7C97-9C94-E72D5960919C}</Project>
+      <Project>{5F4E6DC2-A6D2-5320-AAEC-3153A0941F16}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{ABC48B30-3FDE-C8BB-3D49-5F4E4CAAB112}</Project>
+      <Project>{E5EB2374-5256-CC4E-6EC1-2F5EEE922C9B}</Project>
       <Name>Unity.XR.CoreUtils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{08AFE8C6-190E-5836-DEC9-01AD847BA816}</Project>
+      <Project>{0D154944-5CBE-CD1F-DD60-8E614BB7BB95}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARAnalytics.Editor.csproj">
-      <Project>{F7558DBC-BE68-2023-4028-9EAF133683A4}</Project>
+      <Project>{36439F39-1926-63CD-EE2A-A05FA2A537AE}</Project>
       <Name>Unity.XR.ARAnalytics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.csproj">
-      <Project>{4F92D0D8-87C0-7589-154D-D1519AD19472}</Project>
+      <Project>{17E699D1-A012-3766-2FD0-956410C8724C}</Project>
       <Name>Unity.XR.ARFoundation.InternalUtils</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

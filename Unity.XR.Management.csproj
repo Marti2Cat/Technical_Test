@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{08AFE8C6-190E-5836-DEC9-01AD847BA816}</ProjectGuid>
+    <ProjectGuid>{0D154944-5CBE-CD1F-DD60-8E614BB7BB95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Management</AssemblyName>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>UnityEngine.XR.ARFoundation.InternalUtils</RootNamespace>
-    <ProjectGuid>{4F92D0D8-87C0-7589-154D-D1519AD19472}</ProjectGuid>
+    <ProjectGuid>{17E699D1-A012-3766-2FD0-956410C8724C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARFoundation.InternalUtils</AssemblyName>
@@ -962,15 +962,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{D83BEA33-B66D-9DD0-6ED0-C2AC456726B3}</Project>
+      <Project>{AC0D1AC5-8718-48A5-3300-4D36BAEC68A4}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{152F6DE2-5FD9-7C97-9C94-E72D5960919C}</Project>
+      <Project>{5F4E6DC2-A6D2-5320-AAEC-3153A0941F16}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{08AFE8C6-190E-5836-DEC9-01AD847BA816}</Project>
+      <Project>{0D154944-5CBE-CD1F-DD60-8E614BB7BB95}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
   </ItemGroup>

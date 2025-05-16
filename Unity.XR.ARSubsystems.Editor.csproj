@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F49DAC9C-BA31-759E-7DCD-28FC686CB8C6}</ProjectGuid>
+    <ProjectGuid>{A226EA9E-D0F5-BB48-B610-2F73DEB46913}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARSubsystems.Editor</AssemblyName>
@@ -986,23 +986,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{D83BEA33-B66D-9DD0-6ED0-C2AC456726B3}</Project>
+      <Project>{AC0D1AC5-8718-48A5-3300-4D36BAEC68A4}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{08AFE8C6-190E-5836-DEC9-01AD847BA816}</Project>
+      <Project>{0D154944-5CBE-CD1F-DD60-8E614BB7BB95}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{9F0EC85E-07D2-5ABF-FA47-12677B1EE59F}</Project>
+      <Project>{89EC87A6-7893-896E-EA5C-32B749CB4E73}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

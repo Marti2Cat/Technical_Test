@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D1AF1934-211A-8745-8F18-27325E28D3A9}</ProjectGuid>
+    <ProjectGuid>{0430018F-2CE3-8238-E153-BC2F4B98B390}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Simulation</AssemblyName>
@@ -63,8 +63,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\Simulation\Subsystems\CpuImage\SimulationXRCpuImageApi.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\Simulation\Subsystems\EnvironmentProbe\SimulationEnvironmentProbeSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\Simulation\Analytics\SimulationSubsystemAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\Simulation\Subsystems\SimulationCameraTextureReadbackPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\Simulation\Subsystems\ImageTracking\SimulationImageTrackingSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\Simulation\Subsystems\SimulationCameraTextureReadbackPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\Simulation\Subsystems\CameraTextureFrameEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\Simulation\Subsystems\ImageTracking\TrackedImageDiscoveryParams.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\Simulation\Subsystems\ImageTracking\SimulationTrackedImageDiscoverer.cs" />
@@ -1021,27 +1021,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{D83BEA33-B66D-9DD0-6ED0-C2AC456726B3}</Project>
+      <Project>{AC0D1AC5-8718-48A5-3300-4D36BAEC68A4}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{08AFE8C6-190E-5836-DEC9-01AD847BA816}</Project>
+      <Project>{0D154944-5CBE-CD1F-DD60-8E614BB7BB95}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{152F6DE2-5FD9-7C97-9C94-E72D5960919C}</Project>
+      <Project>{5F4E6DC2-A6D2-5320-AAEC-3153A0941F16}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{8203310D-1422-2D76-EE6E-F27A600B4937}</Project>
+      <Project>{CA047C96-7B33-DA70-41BD-ECBF2088286B}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{6148E157-0A88-03DE-289C-39AED9E739D0}</Project>
+      <Project>{0A39CCBA-0E59-8631-609E-1F9B02344077}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.csproj">
-      <Project>{4F92D0D8-87C0-7589-154D-D1519AD19472}</Project>
+      <Project>{17E699D1-A012-3766-2FD0-956410C8724C}</Project>
       <Name>Unity.XR.ARFoundation.InternalUtils</Name>
     </ProjectReference>
   </ItemGroup>

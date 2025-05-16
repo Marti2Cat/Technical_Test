@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D83BEA33-B66D-9DD0-6ED0-C2AC456726B3}</ProjectGuid>
+    <ProjectGuid>{AC0D1AC5-8718-48A5-3300-4D36BAEC68A4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARSubsystems</AssemblyName>
@@ -64,13 +64,13 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\PointCloudSubsystem\XRPointCloudSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\OcclusionSubsystem\HumanSegmentationStencilMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\HumanBodySubsystem\XRHumanBodySubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\FaceSubsystem\XRFace.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\PlaneTracking\PlaneAlignment.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\FaceSubsystem\XRFace.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\Supported.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\CameraSubsystem\XRCameraConfiguration.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\RaycastSubsystem\XRRaycastSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\CpuImageFormat.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\ImageTrackingSubsystem\AddReferenceImageJobState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\CpuImageFormat.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\XRTextureDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\HelpUrls.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\RaycastSubsystem\XRRaycast.cs" />
@@ -99,8 +99,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\TrackingSubsystem\TrackingSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\Promise.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\CameraSubsystem\XRCameraBackgroundRenderingMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\XRCpuImage\XRCpuImage.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\RaycastSubsystem\TrackableType.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\XRCpuImage\XRCpuImage.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\ParticipantSubsystem\XRParticipant.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\InputSubsystem\HandheldARInputDevice.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\CameraSubsystem\XRCameraFrameExifData.cs" />
@@ -124,8 +124,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\SessionSubsystem\SessionAvailability.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\Configuration\Feature.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\XRCpuImage\Transformation.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\CameraSubsystem\XRCameraParams.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\XRCpuImage\Transformation.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\ParticipantSubsystem\XRParticipantSubsystemDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\ParticipantSubsystem\XRParticipantSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\ImageTrackingSubsystem\AddReferenceImageJobStatus.cs" />
@@ -147,8 +147,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\SessionSubsystem\XRSessionUpdateParams.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\XRCpuImage\Api.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\SerializableDictionary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\HumanBodySubsystem\XRHumanBodyPose2DJoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\ImageTrackingSubsystem\XRReferenceImage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\HumanBodySubsystem\XRHumanBodyPose2DJoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\PlaneTracking\PlaneDetectionMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\CameraSubsystem\XRCameraFrame.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARSubsystems\ScopedProfiler.cs" />
@@ -1062,7 +1062,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{8203310D-1422-2D76-EE6E-F27A600B4937}</Project>
+      <Project>{CA047C96-7B33-DA70-41BD-ECBF2088286B}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A0E1E1F4-7C16-7803-EC60-4BF2544F7C67}</ProjectGuid>
+    <ProjectGuid>{30F10660-607E-B7D4-81BC-1CEBA9C1C1AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARFoundation.Editor</AssemblyName>
@@ -60,7 +60,6 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\ARFoundation\Analytics\Hooks\BuildHook.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\ARFoundation\Analytics\ARUsageAnalyticsArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\ARFoundation\Analytics\ARSceneAnalysis.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\ARFoundation\XROriginCreateUtil.cs" />
@@ -74,6 +73,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\ARFoundation\ARSessionEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\ARFoundation\ARCameraBackgroundEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\ARFoundation\SceneUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\ARFoundation\Analytics\Hooks\BuildHook.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Editor\ARFoundation\Unity.XR.ARFoundation.Editor.asmdef" />
@@ -990,47 +990,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{014541C3-FA4B-FD07-8C37-A5C86B3B233D}</Project>
+      <Project>{5FB09DBC-A8A0-8E77-4CD9-F8DD0EBD36AD}</Project>
       <Name>Unity.XR.ARFoundation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{D83BEA33-B66D-9DD0-6ED0-C2AC456726B3}</Project>
+      <Project>{AC0D1AC5-8718-48A5-3300-4D36BAEC68A4}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{1D0F5ECD-4328-398B-594A-9F1407C57488}</Project>
+      <Project>{36E5FECA-2286-55E1-434A-FF3B53752AA7}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{08AFE8C6-190E-5836-DEC9-01AD847BA816}</Project>
+      <Project>{0D154944-5CBE-CD1F-DD60-8E614BB7BB95}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{9F0EC85E-07D2-5ABF-FA47-12677B1EE59F}</Project>
+      <Project>{89EC87A6-7893-896E-EA5C-32B749CB4E73}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{152F6DE2-5FD9-7C97-9C94-E72D5960919C}</Project>
+      <Project>{5F4E6DC2-A6D2-5320-AAEC-3153A0941F16}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{8203310D-1422-2D76-EE6E-F27A600B4937}</Project>
+      <Project>{CA047C96-7B33-DA70-41BD-ECBF2088286B}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARAnalytics.Editor.csproj">
-      <Project>{F7558DBC-BE68-2023-4028-9EAF133683A4}</Project>
+      <Project>{36439F39-1926-63CD-EE2A-A05FA2A537AE}</Project>
       <Name>Unity.XR.ARAnalytics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.csproj">
-      <Project>{4F92D0D8-87C0-7589-154D-D1519AD19472}</Project>
+      <Project>{17E699D1-A012-3766-2FD0-956410C8724C}</Project>
       <Name>Unity.XR.ARFoundation.InternalUtils</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8D6750DE-1D3F-BB34-33DD-C33BD09B3F29}</ProjectGuid>
+    <ProjectGuid>{97627CE6-0BC1-90D0-046D-3387961E7819}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.MockRuntime</AssemblyName>
@@ -925,15 +925,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{2A49554C-4DB9-1358-1D73-FF52B55DDC3B}</Project>
+      <Project>{DA4A7B83-C703-55E5-3AC2-EB8D9E153C8B}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{0E8EBFC1-ED51-4515-D8C8-1DF412298D84}</Project>
+      <Project>{3D215B04-C3F9-C99E-0E09-205F6A4ABBE1}</Project>
       <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{8203310D-1422-2D76-EE6E-F27A600B4937}</Project>
+      <Project>{CA047C96-7B33-DA70-41BD-ECBF2088286B}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
   </ItemGroup>

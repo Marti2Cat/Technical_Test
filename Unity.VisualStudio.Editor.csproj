@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A01780CF-FE79-D1F2-D119-A92898DAB510}</ProjectGuid>
+    <ProjectGuid>{0A7718D2-F8F8-B7DD-016C-8430C85F8A60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualStudio.Editor</AssemblyName>
@@ -96,8 +96,8 @@
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\Editor\VisualStudioInstallation.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\Editor\SolutionProperties.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\Editor\FileUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\Editor\VersionPair.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\Editor\ProjectGeneration\GUIDProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\Editor\VersionPair.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\Editor\UsageUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\Editor\Messaging\Messenger.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\Editor\AsyncOperation.cs" />
@@ -986,11 +986,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

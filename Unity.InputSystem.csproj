@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8203310D-1422-2D76-EE6E-F27A600B4937}</ProjectGuid>
+    <ProjectGuid>{CA047C96-7B33-DA70-41BD-ECBF2088286B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.InputSystem</AssemblyName>
@@ -94,11 +94,11 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\PlayerInput\PlayerInputEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Devices\Precompiled\FastKeyboard.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\Android\AndroidKeyCode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Controls\Processors\ScaleProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Devices\Commands\QueryCanRunInBackground.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\PlayerInput\PlayerInputManagerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\UITKAssetEditor\ReactiveProperty.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Controls\Processors\StickDeadzoneProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Controls\Processors\ScaleProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Actions\IInputActionCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\UI\MultiplayerEventSystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Actions\InputBinding.cs" />
@@ -172,8 +172,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\XInput\XInputControllerWindows.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\InputManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\UITKAssetEditor\Views\IViewStateCollection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Events\InputEventStream.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Devices\Remote\RemoteInputPlayerConnection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Events\InputEventStream.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\Internal\InputEventTreeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Devices\IEventMerger.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Utilities\Comparers.cs" />
@@ -397,8 +397,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\Debugger\InputDeviceDebuggerWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Events\InputEventPtr.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Utilities\StringHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Utilities\Substring.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Actions\InputBindingResolver.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Utilities\Substring.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Utilities\NamedValue.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Controls\Processors\NormalizeProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Utilities\CSharpCodeHelpers.cs" />
@@ -428,8 +428,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Devices\IEventPreProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Devices\Remote\InputRemoting.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Controls\Processors\NormalizeVector2Processor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\State\InputStateHistory.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\DualShock\DualShockGamepad.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\State\InputStateHistory.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\PropertyDrawers\InputActionDrawerBase.cs" />
   </ItemGroup>
   <ItemGroup>

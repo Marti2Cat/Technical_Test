@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5B7D2EC5-FE80-B799-E4DC-A25311398ED3}</ProjectGuid>
+    <ProjectGuid>{E1D22527-BF52-C9D4-4547-50F21C90C8B8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.RuntimeDebugger</AssemblyName>
@@ -926,11 +926,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{2A49554C-4DB9-1358-1D73-FF52B55DDC3B}</Project>
+      <Project>{DA4A7B83-C703-55E5-3AC2-EB8D9E153C8B}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{0E8EBFC1-ED51-4515-D8C8-1DF412298D84}</Project>
+      <Project>{3D215B04-C3F9-C99E-0E09-205F6A4ABBE1}</Project>
       <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
   </ItemGroup>

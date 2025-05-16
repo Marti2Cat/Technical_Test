@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D4B9E3EC-A1F4-89FE-2931-A8F91D66FD51}</ProjectGuid>
+    <ProjectGuid>{E0FE9EBD-9290-3543-8A6B-68645824F532}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Oculus.Editor</AssemblyName>
@@ -980,27 +980,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Oculus.csproj">
-      <Project>{E377AC72-68FE-3CA7-8EDE-C6C6AD61C536}</Project>
+      <Project>{9444AB3F-A837-0559-A43B-D54941E67C2C}</Project>
       <Name>Unity.XR.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{08AFE8C6-190E-5836-DEC9-01AD847BA816}</Project>
+      <Project>{0D154944-5CBE-CD1F-DD60-8E614BB7BB95}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{9F0EC85E-07D2-5ABF-FA47-12677B1EE59F}</Project>
+      <Project>{89EC87A6-7893-896E-EA5C-32B749CB4E73}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{ABC48B30-3FDE-C8BB-3D49-5F4E4CAAB112}</Project>
+      <Project>{E5EB2374-5256-CC4E-6EC1-2F5EEE922C9B}</Project>
       <Name>Unity.XR.CoreUtils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

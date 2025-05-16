@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A86CBF57-5AE2-1556-A6D3-D809F1A50C46}</ProjectGuid>
+    <ProjectGuid>{EAE3CBDF-122E-8974-F53C-6A9DEF09F1BF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.ConformanceAutomation</AssemblyName>
@@ -961,7 +961,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{2A49554C-4DB9-1358-1D73-FF52B55DDC3B}</Project>
+      <Project>{DA4A7B83-C703-55E5-3AC2-EB8D9E153C8B}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
   </ItemGroup>

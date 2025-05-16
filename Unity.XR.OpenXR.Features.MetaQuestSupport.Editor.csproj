@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D3539388-F99B-D341-1AB8-687F753E59B1}</ProjectGuid>
+    <ProjectGuid>{C42A918A-65D3-FC51-99B7-DDB3F9BD65F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.MetaQuestSupport.Editor</AssemblyName>
@@ -979,27 +979,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{0E8EBFC1-ED51-4515-D8C8-1DF412298D84}</Project>
+      <Project>{3D215B04-C3F9-C99E-0E09-205F6A4ABBE1}</Project>
       <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{2A49554C-4DB9-1358-1D73-FF52B55DDC3B}</Project>
+      <Project>{DA4A7B83-C703-55E5-3AC2-EB8D9E153C8B}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
-      <Project>{1F219164-4F47-9DDD-B285-C03EF8A65D7F}</Project>
+      <Project>{F287BC7E-A067-E076-DC15-A67044E7522E}</Project>
       <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{9F0EC85E-07D2-5ABF-FA47-12677B1EE59F}</Project>
+      <Project>{89EC87A6-7893-896E-EA5C-32B749CB4E73}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5AB45B1A-F0F1-84D4-22EE-F02EC0BF8D2A}</Project>
+      <Project>{31AD68C5-A019-3344-C648-74172430C018}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{739AE373-0A54-3012-D71C-95366FB8BEFB}</Project>
+      <Project>{B827C580-3019-2841-C589-4C1B85435041}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

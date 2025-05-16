@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CE0DB672-806F-5BDE-D861-4CCD51E0DC45}</ProjectGuid>
+    <ProjectGuid>{1AA03F9B-24C6-0C55-6919-85D750A3728E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.OpenXR.Features.OculusQuestSupport</AssemblyName>
@@ -957,11 +957,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{2A49554C-4DB9-1358-1D73-FF52B55DDC3B}</Project>
+      <Project>{DA4A7B83-C703-55E5-3AC2-EB8D9E153C8B}</Project>
       <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
-      <Project>{1F219164-4F47-9DDD-B285-C03EF8A65D7F}</Project>
+      <Project>{F287BC7E-A067-E076-DC15-A67044E7522E}</Project>
       <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
     </ProjectReference>
   </ItemGroup>

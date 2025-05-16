@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{014541C3-FA4B-FD07-8C37-A5C86B3B233D}</ProjectGuid>
+    <ProjectGuid>{5FB09DBC-A8A0-8E77-4CD9-F8DD0EBD36AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.ARFoundation</AssemblyName>
@@ -76,8 +76,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARAnchorsChangedEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARMeshesChangedEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARCameraFrameEventArgs.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\TrackingMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\PlaneDetectionModeMaskAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\TrackingMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARTrackedImageManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARPlaneMeshVisualizer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARPlaneManager.cs" />
@@ -117,8 +117,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\CameraFacingDirection.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARFacesChangedEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARSessionOrigin.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARRaycast.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARPlaneBoundaryChangedEventArgs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARRaycast.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARPointCloudParticleVisualizer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARSessionState.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.2.0\Runtime\ARFoundation\ARPointCloudMeshVisualizer.cs" />
@@ -1036,23 +1036,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{D83BEA33-B66D-9DD0-6ED0-C2AC456726B3}</Project>
+      <Project>{AC0D1AC5-8718-48A5-3300-4D36BAEC68A4}</Project>
       <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{08AFE8C6-190E-5836-DEC9-01AD847BA816}</Project>
+      <Project>{0D154944-5CBE-CD1F-DD60-8E614BB7BB95}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{1D0F5ECD-4328-398B-594A-9F1407C57488}</Project>
+      <Project>{36E5FECA-2286-55E1-434A-FF3B53752AA7}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{152F6DE2-5FD9-7C97-9C94-E72D5960919C}</Project>
+      <Project>{5F4E6DC2-A6D2-5320-AAEC-3153A0941F16}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.csproj">
-      <Project>{4F92D0D8-87C0-7589-154D-D1519AD19472}</Project>
+      <Project>{17E699D1-A012-3766-2FD0-956410C8724C}</Project>
       <Name>Unity.XR.ARFoundation.InternalUtils</Name>
     </ProjectReference>
   </ItemGroup>
