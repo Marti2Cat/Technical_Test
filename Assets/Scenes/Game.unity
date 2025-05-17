@@ -3625,7 +3625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Sound PLayer Button
+  m_text: 'Sound Player Button
 
 '
   m_isRightToLeft: 0
