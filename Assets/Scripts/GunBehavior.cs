@@ -9,6 +9,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 /// </summary>
 public class GunBehavior : MonoBehaviour
 {
+
+    #region Properties
     /// <summary> The prefab of the bullet </summary>
     [SerializeField] private GameObject _bulletPrefab;
 
@@ -22,10 +24,19 @@ public class GunBehavior : MonoBehaviour
     private bool wasLeftTriggerPressed = false;
     private bool wasRightTriggerPressed = false;
 
+    /// <summary> Reference to the audioManager script and game object that contains it </summary>
+    [SerializeField] private GameObject _audioManagerObject;
+    private AudioManager _audioManager;
+
+    /// <summary> The shooting sound </summary>
+    [SerializeField] private AudioClip _shootingSound;
 
     private XRGrabInteractable grabInteractable;
     private XRNode currentHandNode;
 
+    #endregion
+
+    #region Awake / Start / OnDestroy
     void Awake()
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
@@ -35,11 +46,18 @@ public class GunBehavior : MonoBehaviour
         grabInteractable.selectExited.AddListener(OnReleased);
     }
 
+    private void Start()
+    {
+        _audioManager = _audioManagerObject.GetComponent<AudioManager>();
+    }
+
     void OnDestroy()
     {
         grabInteractable.selectEntered.RemoveListener(OnGrabbed);
         grabInteractable.selectExited.RemoveListener(OnReleased);
     }
+
+    #endregion
 
     void Update()
     {
@@ -69,6 +87,7 @@ public class GunBehavior : MonoBehaviour
         }
     }
 
+    #region Methods
 
     /// <summary>
     /// Detects which hand has grabbed the gun
@@ -110,11 +129,14 @@ public class GunBehavior : MonoBehaviour
 
 
     /// <summary>
-    /// Instantiates the bullet prefab on the shooting point
+    /// Instantiates the bullet prefab on the shooting point and calls AudioManager to play the shooting sound
     /// </summary>
     void Shoot()
     {
         Instantiate(_bulletPrefab, _shootingPoint.transform.position, _shootingPoint.transform.rotation);
+        _audioManager.PlayAudio(_shootingSound);
     }
+
+    #endregion
 }
 
